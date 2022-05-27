@@ -8,7 +8,7 @@
     "app:watch": "nodemon --watch ./server -e js ./server/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "git@github.com:cjselby/Capstone.git",
   "license": "ISC",
   "devDependencies": {
     "buffer": "^6.0.3",
