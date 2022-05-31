@@ -6,7 +6,7 @@ body {
   align-items: center;
   height: 90vh;
   font-family: Montserrat,sans-serif;
-  background-image: url("img/sunset.jpg");
+  background-image: url("assets/img/sunset.jpg");
   opacity: 0.65;
   background-size: cover;
 }
