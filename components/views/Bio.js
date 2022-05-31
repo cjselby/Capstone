@@ -1,13 +1,12 @@
 import html from "html-literal";
 export default () => html`
   <section id="bio">
-    <h2>Vivamus ac justo eu nisi</h2>
+    <h2>About Us</h2>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sagittis
-      nulla. Etiam semper mauris a quam tempus, non feugiat massa posuere. Morbi
-      vitae nisi aliquam, semper diam id, molestie leo. In hac habitasse platea
-      dictumst. Nulla et enim vel elit dictum viverra. Nunc pharetra lacinia
-      arcu sit amet dignissim. Pellentesque ut mi nulla.
+      I created The Date Deck because I want inspire others to deepen their
+      connection with loved ones in new ways. I know life gets busy and
+      maintaining relationships is difficult. Instead of spending time planning
+      a date, The Date Deck will do it for you.
     </p>
     <p>
       Quisque at hendrerit libero, eget interdum lectus. Etiam facilisis leo
