@@ -38,7 +38,7 @@ app.post("/echo", (request, response) => {
   response.json({ "request.body": request.body });
 });
 
-app.use("/pizzas", pizzas);
+app.use("/deck", deck);
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
