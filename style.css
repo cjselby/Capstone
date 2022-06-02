@@ -104,14 +104,6 @@ footer {
     list-style-type: none;
   }
 
-  #bio img {
-    float: left;
-    width: 40%;
-    height: auto;
-    margin-right: 1rem;
-  }
-}
-
 @media (min-width: 550px) {
   nav > ul {
     display: flex;
