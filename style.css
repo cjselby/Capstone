@@ -139,20 +139,13 @@ footer {
     color: white;
   }
 
-  #jumbotron img {
-  background-color: white;
-  padding: 1.5rem;
-  border-radius: 10px;
-  width: 800px;
-  height: 611px;
-  }
-
-  #ms img {
-  background-color: white;
-  padding: 1.5rem;
-  border-radius: 10px;
-  width: 800px;
-  height: 611px;
-  float: left;
-  }
-
+#jumbotron {
+    background: url(assets/img/skydive.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: white;
+}
