@@ -22,14 +22,6 @@
   border-radius: 10px;
 }
 
-#bio > a {
-  text-decoration: none;
-  background-color: white;
-  font-size: 1.5em;
-  padding: 1.5rem;
-  border-radius: 10px;
-}
-
 form {
   border: solid 1px black;
   display: flex;
@@ -53,16 +45,8 @@ footer {
   margin: 1rem 1rem;
 }
 
-
 #bio {
-  background: url(assets/img/sunset.jpg) center center no-repeat;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 90vh;
-  color: white;
+  margin: 1rem;
 }
 
 #pizzas {
@@ -87,7 +71,7 @@ footer {
 
 @media (max-width: 549px){
   .hidden--mobile {
-    display: none !important;
+    display: none;
   }
 }
 
@@ -145,10 +129,21 @@ footer {
     margin-right: 3rem;
   }
 
-  #bio img {
-    float: left;
-    width: 25%;
-    height: auto;
-    margin-right: 1rem;
+  #bio > a {
+    text-decoration: none;
+    background-color: white;
+    font-size: 1.5em;
+    padding: 1.5rem;
+    border-radius: 10px;
   }
-}
+
+  #bio {
+    background: url(assets/img/sunset.jpg) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: white;
+  }
