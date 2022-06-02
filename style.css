@@ -94,9 +94,9 @@ footer {
   }
 
   #bio img {
-    float: left;
-    width: 40%;
-    height: auto;
+    float: right;
+    width: 564px;
+    height: 611px;
     margin-right: 1rem;
   }
 
