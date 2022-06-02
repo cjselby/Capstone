@@ -22,6 +22,14 @@
   border-radius: 10px;
 }
 
+#bio > a {
+  text-decoration: none;
+  background-color: white;
+  font-size: 1.5em;
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
 form {
   border: solid 1px black;
   display: flex;
