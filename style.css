@@ -11,15 +11,6 @@ body {
   color: white;
 }
 
-h2 {
-  font-size: 3em;
-}
-
-#description {
-  font-size: 1em;
-  font-weight: bold;
-}
-
 #jumbotron {
   background-size: cover;
   display: flex;
