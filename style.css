@@ -92,8 +92,6 @@ footer {
   nav > ul > li {
     padding: 0.5rem;
     list-style-type: none;
-    justify-content: space-around;
-    flex-direction: row;
   }
 
   #bio img {
@@ -140,4 +138,11 @@ footer {
     align-items: center;
     height: 90vh;
     color: white;
+  }
+
+  #mainContent {
+    padding-top: 0;
+    padding-bottom: 56px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
