@@ -46,7 +46,6 @@ footer {
 }
 
 #bio {
-  margin: 1rem;
   background: url(assets/img/sunset.jpg) center center no-repeat;
   background-size: cover;
   display: flex;
