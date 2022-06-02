@@ -45,9 +45,6 @@ footer {
   margin: 1rem 1rem;
 }
 
-#bio {
-  margin: 1rem;
-}
 
 #bio {
   background: url(assets/img/sunset.jpg) center center no-repeat;
@@ -106,6 +103,13 @@ footer {
   nav > ul > li {
     padding: 0.5rem;
     list-style-type: none;
+  }
+
+  #bio img {
+    float: left;
+    width: 40%;
+    height: auto;
+    margin-right: 1rem;
   }
 
 @media (min-width: 550px) {
