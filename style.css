@@ -147,7 +147,7 @@ footer {
   height: 611px;
   }
 
-  #jumbotron img > #ms {
+  #jumbotron > #ms {
   background-color: white;
   padding: 1.5rem;
   border-radius: 10px;
