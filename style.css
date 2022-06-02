@@ -81,6 +81,7 @@ footer {
   .hidden--mobile {
     display: none !important;
   }
+}
 
   nav {
     display: flex;
@@ -118,6 +119,7 @@ footer {
     justify-content: space-evenly;
     padding: 0 0;
   }
+}
 
   nav > ul > li {
     display: inline-block;
