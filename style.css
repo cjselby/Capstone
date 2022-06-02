@@ -139,11 +139,13 @@ footer {
     color: white;
   }
 
-  #jumbotron {
+  #jumbotron img {
   text-decoration: none;
   background-color: white;
   font-size: 1.5em;
   padding: 1.5rem;
   border-radius: 10px;
+  width: 564px;
+  height: 611px;
   }
 
