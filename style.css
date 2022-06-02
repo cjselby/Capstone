@@ -6,6 +6,7 @@
   align-items: center;
   height: 90vh;
   color: white;
+  font-family: Montserrat,sans-serif;
 }
 
 #jumbotron > h2 {
@@ -137,6 +138,7 @@ footer {
     align-items: center;
     height: 90vh;
     color: white;
+    font-family: Montserrat,sans-serif;
   }
 
 #jumbotron {
