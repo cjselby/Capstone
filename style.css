@@ -45,10 +45,6 @@ footer {
   margin: 1rem 1rem;
 }
 
-#bio {
-  margin: 1rem;
-}
-
 #pizzas {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.2em;
@@ -123,10 +119,6 @@ footer {
 
   nav > .fa-bars {
     display: none;
-  }
-
-  #bio {
-    margin-right: 3rem;
   }
 
   #bio > a {
