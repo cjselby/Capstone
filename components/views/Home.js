@@ -7,6 +7,6 @@ export default state => html`
       Whether you're looking for adventurous date ideas, group dates, date ideas
       by season or at-home date ideas, we've got you covered.
     </p>
-    <a href="index.html">"Call to Action" "Button"</a>
+    <a href="index.html">Generate a Date</a>
   </section>
 `;
