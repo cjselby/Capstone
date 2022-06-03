@@ -158,17 +158,19 @@ h1 {
 }
 
 h2 {
+  background: none;
+  height: 75vh;
+  width: 75vh;
+  padding:1em;
   position: relative;
-  top: 80%;
-  bottom: 0;
-  left: 20%;
-  right: 90%;
+  text-align: right;
 }
 
 #description {
+  background: none;
   position: relative;
-  top: 50%;
+  top: 0;
   bottom: 0;
-  left: 10%;
-  right: 90%;
+  left: 25%;
+  right: 0;
 }
