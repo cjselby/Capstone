@@ -9,4 +9,7 @@ export default state => html`
     </p>
     <a href="index.html">Generate a Date</a>
   </section>
+  <section id="secondSection">
+    <p id="secondP">Discover new ways to connect with your loved ones.</p>
+  </section>
 `;

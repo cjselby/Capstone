@@ -155,3 +155,14 @@ footer {
 h1 {
   font-family: Montserrat,sans-serif;
 }
+
+#secondSection {
+  background: url(assets/img/camping.jpg) center center no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  color: white;
+}
