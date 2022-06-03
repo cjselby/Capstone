@@ -157,6 +157,17 @@ h1 {
 }
 
 #secondSection {
+  background-color: white;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  color: black;
+}
+
+#thirdSection {
   background: url(assets/img/camping.jpg) center center no-repeat;
   background-size: cover;
   display: flex;
