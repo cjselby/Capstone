@@ -139,11 +139,11 @@ footer {
     height: 90vh;
     color: white;
     font-family: Montserrat,sans-serif;
+    text-align: center;
   }
 
 #jumbotron {
     background: url(assets/img/skydive.jpg) center center no-repeat;
-    opacity: 50;
     background-size: cover;
     display: flex;
     flex-direction: column;
