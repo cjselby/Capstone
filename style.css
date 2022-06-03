@@ -156,3 +156,14 @@ footer {
 h1 {
   font-family: Montserrat,sans-serif;
 }
+
+#bio {
+  position: relative;
+}
+#bioContent {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  bottom: 30%;
+  right: 65%;
+}
