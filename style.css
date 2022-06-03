@@ -157,12 +157,18 @@ h1 {
   font-family: Montserrat,sans-serif;
 }
 
-#description {
+h2 {
   position: relative;
-  background-color: white;
-  color: black;
-  top: 0;
+  top: 80%;
   bottom: 0;
   left: 10%;
-  right: 75%;
+  right: 90%;
+}
+
+#description {
+  position: relative;
+  top: 80%;
+  bottom: 0;
+  left: 10%;
+  right: 90%;
 }
