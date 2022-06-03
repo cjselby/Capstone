@@ -151,3 +151,8 @@ footer {
     height: 90vh;
     color: white;
 }
+
+h1 {
+  font-family: Montserrat,sans-serif;
+  left: 3px;
+}
