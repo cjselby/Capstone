@@ -142,7 +142,7 @@ footer {
   }
 
 #jumbotron {
-    background: url(assets/img/skydive.jpg) 30% center no-repeat;
+    background: url(assets/img/skydive.jpg) center center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
