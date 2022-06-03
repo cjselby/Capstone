@@ -162,8 +162,9 @@ h1 {
 }
 #bioContent {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 10%;
   bottom: 30%;
-  right: 65%;
+  right: 50%;
+  font-weight: bolder;
 }
