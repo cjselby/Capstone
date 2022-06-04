@@ -144,13 +144,15 @@ footer {
   }
 
 .jumboImg {
-    background: url(assets/img/skydive.jpg) center center no-repeat;
+    background-image: url(assets/img/skydive.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
+    opacity: .15;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 95vh;
     width: 100%;
     color: white;
 }
