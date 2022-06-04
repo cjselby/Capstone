@@ -145,11 +145,10 @@ footer {
 
 .jumboImg {
     background-image: url(assets/img/skydive.jpg);
-    background-size: 90%;
+    background-size: 70%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    opacity: 15;
     display: flex;
     flex-direction: column;
     justify-content: center;
