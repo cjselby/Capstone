@@ -72,7 +72,7 @@ footer {
 }
 
   nav {
-    background: url(assets/img/sunset.jpg) center center no-repeat;
+    background: white;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -143,7 +143,7 @@ footer {
     text-align: center;
   }
 
-#jumbotron {
+.jumboImg {
     background: url(assets/img/skydive.jpg) center center no-repeat;
     background-size: cover;
     display: flex;
