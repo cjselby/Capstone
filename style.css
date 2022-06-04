@@ -147,7 +147,8 @@ footer {
     background-image: url(assets/img/skydive.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: .15;
+    background-position: center;
+    opacity: 15;
     display: flex;
     flex-direction: column;
     justify-content: center;
