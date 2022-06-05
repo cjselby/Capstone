@@ -9,7 +9,7 @@ export default () => html`
           >How likely are you to recommend The Date Deck to a friend?</label
         >
         <select id="likely" name="likely">
-          <option value="">1 - 10</option>
+          <option value=""></option>
           <option value="ten">10 - Very likely</option>
           <option value="nine">9</option>
           <option value="eight">8</option>
@@ -23,12 +23,12 @@ export default () => html`
         </select>
       </div>
       <div>
-        <label for="category">Outdoors date? Group date?</label>
+        <label for="category">What type of date did you go on?</label>
         <input
           type="text"
           name="category"
           id="category"
-          placeholder="Enter Date Category"
+          placeholder="Outdoors date? Group date?"
           required
         />
       </div>
@@ -38,14 +38,14 @@ export default () => html`
           type="text"
           name="experience"
           id="experience"
-          placeholder="Please share your experience"
+          placeholder="Please tell us about your experience"
           required
         />
       </div>
       <div>
         <label for="interests"
           >What date categories are you interested in? Select all that
-          apply.</label
+          apply</label
         >
         <input
           type="checkbox"
@@ -94,7 +94,7 @@ export default () => html`
         id="customer"
         value="Anonymous Customer"
       />
-      <input type="submit" name="submit" value="Submit Pizza" />
+      <input type="submit" name="submit" value="Submit Review" />
     </form>
   </section>
 `;
