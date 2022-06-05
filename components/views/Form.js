@@ -3,79 +3,90 @@ import html from "html-literal";
 export default () => html`
   <section id="improve">
     <form id="improve" method="POST" action="">
-      <h2>Order a pizza</h2>
+      <h2>Help us improve</h2>
       <div>
-        <label for="crust">Crust:</label>
-        <select id="crust" name="crust">
-          <option value="">Select a Crust</option>
-          <option value="thin">Thin</option>
-          <option value="chicago">Chicago</option>
-          <option value="deep-dish">Deep Dish</option>
-          <option value="hella-thick">Hella Thick</option>
+        <label for="likely"
+          >How likely are you to recommend The Date Deck to a friend?</label
+        >
+        <select id="likely" name="likely">
+          <option value="">1 - 10</option>
+          <option value="ten">10 - Very likely</option>
+          <option value="nine">9</option>
+          <option value="eight">8</option>
+          <option value="seven">7</option>
+          <option value="six">6</option>
+          <option value="five">5</option>
+          <option value="four">4</option>
+          <option value="three">3</option>
+          <option value="two">2</option>
+          <option value="one">1 - Not likely</option>
         </select>
       </div>
       <div>
-        <label for="cheese">Cheese:</label>
+        <label for="category">Outdoors date? Group date?</label>
         <input
           type="text"
-          name="cheese"
-          id="cheese"
-          placeholder="Enter Cheese"
+          name="category"
+          id="category"
+          placeholder="Enter Date Category"
           required
         />
       </div>
       <div>
-        <label for="sauce">Sauce:</label>
+        <label for="experience">Describe your experience:</label>
         <input
           type="text"
-          name="sauce"
-          id="sauce"
-          placeholder="Enter Sauce"
+          name="experience"
+          id="experience"
+          placeholder="Please share your experience"
           required
         />
       </div>
       <div>
-        <label for="toppings">Toppings:</label>
+        <label for="interests"
+          >What date categories are you interested in? Select all that
+          apply.</label
+        >
         <input
           type="checkbox"
           id="id_of_checkbox1"
           class="items1"
-          name="toppings"
-          value="Chicken"
+          name="interests"
+          value="outdoor"
         />
-        <label for="top1">chicken</label>
+        <label for="int1">Outdoor Dates</label>
         <input
           type="checkbox"
           id="id_of_checkbox2"
           class="items1"
-          name="toppings"
-          value="onion"
+          name="interests"
+          value="group"
         />
-        <label for="top2">onion</label>
+        <label for="int2">Group Dates</label>
         <input
           type="checkbox"
           id="id_of_checkbox3"
           class="items1"
-          name="toppings"
-          value="spinach"
+          name="interests"
+          value="artMusic"
         />
-        <label for="top3">spinach</label>
+        <label for="int3">Art/Music</label>
         <input
           type="checkbox"
           id="id_of_checkbox4"
           class="items1"
-          name="toppings"
-          value="Extra cheese"
+          name="interests"
+          value="atHome"
         />
-        <label for="top4">extra cheese</label>
+        <label for="int4">At home</label>
         <input
           type="checkbox"
           id="id_of_checkbox5"
           class="items1"
-          name="toppings"
-          value="red pepper"
+          name="interests"
+          value="dinnerDrinks"
         />
-        <label for="top5">red pepper</label>
+        <label for="int5">Dinner/Drinks</label>
       </div>
       <input
         type="hidden"
