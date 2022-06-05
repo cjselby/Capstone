@@ -9,7 +9,6 @@ export default () => html`
           >How likely are you to recommend The Date Deck to a friend?</label
         >
         <select id="likely" name="likely">
-          <option value=""></option>
           <option value="ten">10 - Very likely</option>
           <option value="nine">9</option>
           <option value="eight">8</option>
