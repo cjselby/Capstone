@@ -82,6 +82,7 @@ footer {
   nav > i {
     padding: 1rem;
     font-size: 2em;
+    color: white;
   }
 
   nav > ul {
@@ -89,11 +90,13 @@ footer {
     align-items: center;
     flex-direction: row;
     padding: 0 0;
+    color: white;
   }
 
   nav > ul > li {
     padding: 0.5rem;
     list-style-type: none;
+    color:white;
   }
 
   #bio img {
