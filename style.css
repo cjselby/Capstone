@@ -130,6 +130,8 @@ footer {
 
   nav > .fa-bars {
     display: none;
+    text-decoration: none;
+    color: white;
   }
 
   #bio > a {
