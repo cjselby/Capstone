@@ -230,11 +230,15 @@ input[type="submit" i] {
     justify-content: center;
     align-items: center;
     height: 75vh;
-    width: 100%;
     color: white;
     border-top: 15rem;
     border-bottom: 15rem;
     border: solid white;
     margin-left: 7%;
     margin-right: 7%;
+}
+
+footer {
+  color:white;
+  background-color: black;
 }
