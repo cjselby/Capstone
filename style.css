@@ -97,7 +97,6 @@ footer {
   }
 
   nav > ul > li {
-    padding: 0.5rem;
     list-style-type: none;
     text-decoration: none;
     color:white;
@@ -167,8 +166,8 @@ footer {
     height: 100vh;
     width: 100%;
     color: white;
-    border-top: 2rem;
-    border-bottom: 2rem;
+    border-top: 5rem;
+    border-bottom: 5rem;
     border: solid white;
 }
 
