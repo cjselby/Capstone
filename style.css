@@ -196,11 +196,13 @@ a:-webkit-any-link {
   color:white;
   font-size: 1rem;
   font-family: ProximaNova,Helvetica,Arial,sans-serif;
+  justify-content: space-between;
 }
 
 #improve {
   font-family: ProximaNova,Helvetica,Arial,sans-serif;
   align-items: center;
   align-content: center;
+  align-items: center;
 
 }
