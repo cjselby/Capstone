@@ -198,6 +198,9 @@ a:-webkit-any-link {
   font-size: 1rem;
   font-family: ProximaNova,Helvetica,Arial,sans-serif;
   justify-content: space-between;
+  -webkit-font-smoothing: antialiased;
+    letter-spacing: .14em;
+    text-transform: uppercase;
 }
 
 #improve {
