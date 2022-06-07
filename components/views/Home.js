@@ -9,6 +9,8 @@ export default state => html`
         ideas by season or at-home date ideas, we've got you covered.
       </p>
     </div>
+  </section>
+  <section id="secondImg">
     <a href="index.html">Generate a Date</a>
   </section>
 `;
