@@ -121,7 +121,6 @@ footer {
   nav > ul > li {
     display: inline-block;
     text-decoration: none;
-    border: 1px solid;
     padding: 0.5rem 0.5rem;
     border-radius: 25px;
     color: white;
@@ -189,4 +188,10 @@ h1 {
 nav > a {
   text-decoration: none;
   color: white;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+  color:white;
 }
