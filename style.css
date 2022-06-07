@@ -194,4 +194,6 @@ a:-webkit-any-link {
   cursor: pointer;
   text-decoration: none;
   color:white;
+  font-size: 1rem;
+  font-family: ProximaNova,Helvetica,Arial,sans-serif;
 }
