@@ -7,8 +7,8 @@
   height: 90vh;
   color: white;
   font-family: Montserrat,sans-serif;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
   background-color: white;
 }
 
@@ -153,6 +153,8 @@ footer {
     color: white;
     font-family: Montserrat,sans-serif;
     text-align: center;
+    margin-left: 7%;
+  margin-right: 7%;
   }
 
 .jumboImg {
@@ -233,4 +235,6 @@ input[type="submit" i] {
     border-top: 15rem;
     border-bottom: 15rem;
     border: solid white;
+    margin-left: 7%;
+    margin-right: 7%;
 }
