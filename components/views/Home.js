@@ -11,6 +11,6 @@ export default state => html`
     </div>
   </section>
   <section id="secondImg">
-    <a href="index.html">Generate a Date</a>
+    <a href="index.html">Get Outside</a>
   </section>
 `;
