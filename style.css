@@ -206,5 +206,7 @@ a:-webkit-any-link {
   align-items: center;
   align-content: center;
   align-items: center;
-
 }
+
+input[type="submit" i] {
+  align-items: center;
