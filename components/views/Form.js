@@ -4,7 +4,7 @@ export default () => html`
   <section id="improve">
     <form id="improve" method="POST" action="">
       <h2>Help us improve</h2>
-      <div>
+      <div id="revForm">
         <label for="customer">Name:</label>
         <input
           type="text"

@@ -252,6 +252,15 @@ footer {
   align-items: center;
 }
 
+#revForm {
+  color:black;
+  background-color: white;
+  font-family: ProximaNova,Helvetica,Arial,sans-serif;
+  align-items: center;
+  align-content: center;
+  align-items: center;
+}
+
 #group {
   background-image: url(assets/img/bonfire.jpg);
     background-size: 100% 100%;
