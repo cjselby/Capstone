@@ -10,5 +10,10 @@ export default () => html`
         <li><a href="./Form">Submit a Review</a></li>
       </ul>
     </div>
+    <div class="about">
+      <ul>
+        <li><a href="./Bio">About Us</a></li>
+      </ul>
+    </div>
   </footer>
 `;
