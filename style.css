@@ -278,3 +278,8 @@ footer {
     border-bottom: 15rem;
     border: solid white;
 }
+
+#group > h2 {
+  color: white;
+  font-family: ProximaNova,Helvetica,Arial,sans-serif;
+}
