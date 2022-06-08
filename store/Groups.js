@@ -1,4 +1,4 @@
 export default {
-    header: "",
-    view: "Group"
-  };  
+  header: "",
+  view: "Group"
+};
