@@ -5,6 +5,15 @@ export default () => html`
     <form id="improve" method="POST" action="">
       <h2>Help us improve</h2>
       <div>
+        <label for="customer">Name:</label>
+        <input
+          type="text"
+          name="customer"
+          id="customer"
+          placeholder="Enter Name"
+          required
+        />
+      <div>
         <label for="likely"
           >How likely are you to recommend The Date Deck to a friend?</label
         >
