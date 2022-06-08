@@ -283,3 +283,26 @@ footer {
   color: white;
   font-family: ProximaNova,Helvetica,Arial,sans-serif;
 }
+
+#outdoors {
+  background-image: url(assets/img/camping.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+}
+
+#outdoorContent {
+  color: white;
+  font-family: ProximaNova,Helvetica,Arial,sans-serif;
+}
