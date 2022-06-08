@@ -306,3 +306,49 @@ footer {
   color: white;
   font-family: ProximaNova,Helvetica,Arial,sans-serif;
 }
+
+#art {
+  background-image: url(assets/img/pottery.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+}
+
+#artContent {
+  color: white;
+  font-family: ProximaNova,Helvetica,Arial,sans-serif;
+}
+
+#food {
+  background-image: url(assets/img/food.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+}
+
+#foodContent {
+  color: white;
+  font-family: ProximaNova,Helvetica,Arial,sans-serif;
+}
