@@ -357,3 +357,14 @@ footer {
   background-color: white;
   color: black;
 }
+
+#secondSection {
+  color: black;
+  background-color: white;
+  font: inherit;
+}
+
+#secondSection > #groupPic > img {
+  height: 30vh;
+  width: 30vh;
+}
