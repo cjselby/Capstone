@@ -11,5 +11,10 @@ export default state => html`
       <a href="index.html">Explore all date categories</a>
     </div>
   </section>
-  <section id="secondImg"></section>
+  <section id="secondSection">
+    <h2>Group Dates</h2>
+    <div class="groupPic">
+      <img src="assets/img/grouphike.jpg" />
+    </div>
+  </section>
 `;
