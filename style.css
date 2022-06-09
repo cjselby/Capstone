@@ -220,25 +220,6 @@ input[type="submit" i] {
   align-items: center;
 }
 
-#secondImg {
-    background-image: url(assets/img/fishing.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-    color: white;
-    border-top: 15rem;
-    border-bottom: 15rem;
-    border: solid white;
-    margin-left: 7%;
-    margin-right: 7%;
-}
-
 footer {
   color:white;
   background-color: black;
@@ -367,5 +348,8 @@ footer {
   background-color: white;
   background-size: auto;
   font: inherit;
-  height: 50vh;
+  height: 35vh;
+  width: 30vh;
+  margin-left: 7%;
+  margin-right: 7%;
 }
