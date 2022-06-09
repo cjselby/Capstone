@@ -360,8 +360,12 @@ footer {
 
 #secondSection {
   color: black;
+}
+
+#secondImg {
   background-image: url(assets/img/bowling.jpg);
   background-color: white;
+  background-size: auto;
   font: inherit;
   height: 50vh;
 }

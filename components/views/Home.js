@@ -13,5 +13,8 @@ export default state => html`
   </section>
   <section id="secondSection">
     <h2>Group Dates</h2>
+    <div id="secondImg">
+      a
+    </div>
   </section>
 `;
