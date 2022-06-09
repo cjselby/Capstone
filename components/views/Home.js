@@ -5,12 +5,11 @@ export default state => html`
     <div class="jumboImg">
       <h2>Not your average date night</h2>
       <p>
-        Whether you're looking for adventurous date ideas, group dates, date
-        ideas by season or at-home date ideas, we've got you covered.
+        Whether you're looking for adventurous dates, group dates or at-home
+        dates, we've got you covered.
       </p>
+      <a href="index.html">Explore all date categories</a>
     </div>
   </section>
-  <section id="secondImg">
-    <a href="index.html">Get Outside</a>
-  </section>
+  <section id="secondImg"></section>
 `;
