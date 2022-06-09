@@ -352,3 +352,8 @@ footer {
   color: white;
   font-family: ProximaNova,Helvetica,Arial,sans-serif;
 }
+
+#jumbotron > .jumboImg > a {
+  background-color: white;
+  color: black;
+}
