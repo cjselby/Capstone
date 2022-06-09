@@ -347,6 +347,7 @@ footer {
   background-image: url(assets/img/bowling.jpg);
   background-color: white;
   background-size: auto;
+  background-position: 50%;
   font: inherit;
   height: 35vh;
   width: 30vh;
