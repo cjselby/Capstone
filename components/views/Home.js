@@ -13,8 +13,5 @@ export default state => html`
   </section>
   <section id="secondSection">
     <h2>Group Dates</h2>
-    <div class="groupPic">
-      <img src="assets/img/grouphike.jpg" />
-    </div>
   </section>
 `;

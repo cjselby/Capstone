@@ -360,18 +360,8 @@ footer {
 
 #secondSection {
   color: black;
+  background-image: url(assets/img/bowling.jpg);
   background-color: white;
   font: inherit;
   height: 50vh;
-}
-
-#groupPic {
-  color: black;
-  background-color: white;
-  font: inherit;
-}
-
-#secondSection > #groupPic > img {
-  height: 30vh;
-  width: 30vh;
 }
