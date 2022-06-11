@@ -342,6 +342,8 @@ footer {
 
 #secondSection {
   color: black;
+  font-family: ProximaNova,Helvetica,Arial,sans-serif;
+  margin: auto;
 }
 
 #secondImg {
@@ -350,7 +352,7 @@ footer {
   background-size: 60%;
   background-repeat: no-repeat;
   font: inherit;
-  height: 45vh;
+  height: 40vh;
   width: 50vh;
   margin-left: 7%;
   margin-right: 7%;
