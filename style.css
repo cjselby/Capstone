@@ -337,6 +337,7 @@ footer {
 #jumbotron > .jumboImg > a {
   background-color: white;
   color: black;
+  padding: 1.2em 25px;
 }
 
 #secondSection {
@@ -346,11 +347,11 @@ footer {
 #secondImg {
   background-image: url(assets/img/bowling.jpg);
   background-color: white;
-  background-size: 50%;
+  background-size: 60%;
   background-repeat: no-repeat;
   font: inherit;
-  height: 35vh;
-  width: 30vh;
+  height: 45vh;
+  width: 50vh;
   margin-left: 7%;
   margin-right: 7%;
 }
