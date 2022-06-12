@@ -224,6 +224,8 @@ footer {
   color:white;
   background-color: black;
   background-size: cover;
+  bottom: 0px;
+  height: 25px;
 }
 #rev {
   color:black;
@@ -381,8 +383,8 @@ footer {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 25px 25px 25px 25px;
-  grid-template-rows: 25px 25px 25px 25px;
+  grid-template-columns: 50px 50px 50px 50px;
+  grid-template-rows: 50px 50px 50px 50px;
 }
 
 #groupCategorySection {
@@ -391,6 +393,8 @@ footer {
 }
 
 #outdoorCategorySection {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
