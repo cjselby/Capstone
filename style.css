@@ -223,6 +223,7 @@ input[type="submit" i] {
 footer {
   color:white;
   background-color: black;
+  background-size: cover;
 }
 #rev {
   color:black;
