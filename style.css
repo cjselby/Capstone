@@ -379,3 +379,9 @@ footer {
   margin-right: 7%;
 }
 
+#wrapper {
+  display: grid;
+  grid-template-columns: 25px 25px 25px 25px;
+  grid-template-rows: 25px 25px 25px 25px;
+}
+
