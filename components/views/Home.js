@@ -16,6 +16,9 @@ export default state => html`
     <div id="secondImg">
       <h3>Bowling</h3>
     </div>
+    <div id="thirdImg">
+      <h3>Softball</h3>
+    </div>
   </section>
   <section class="categorySection">
     <h2>Outdoor Dates</h2>
