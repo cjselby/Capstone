@@ -342,8 +342,10 @@ footer {
 
 .categorySection > h2 {
   color: black;
-  font-family: ProximaNova,Helvetica,Arial,sans-serif;
-  margin: auto 50%;
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 #secondImg {
