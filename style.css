@@ -349,8 +349,6 @@ footer {
 }
 
 #secondImg img {
-  background-color: white;
-  background-repeat: no-repeat;
   float: left;
   height: 40vh;
   width: 50vh;
@@ -359,9 +357,6 @@ footer {
 }
 
 #thirdImg img {
-  background-color: white;
-  background-repeat: no-repeat;
-  float: right;
   height: 40vh;
   width: 50vh;
   margin-left: 7%;
