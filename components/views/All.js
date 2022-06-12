@@ -4,6 +4,13 @@ export default () => html`
     <div id="content1">
       <h2>Group Date Activities</h2>
     </div>
-    <div id="img1">abc</div>
+    <div id="img1"></div>
+    <div id="img2"></div>
+    <div id="img3"></div>
+    <div id="img4"></div>
+    <div id="content2">
+      <h2>Music & Art Date Activities</h2>
+    </div>
+    <div id="img5"></div>
   </section>
 `;
