@@ -23,7 +23,7 @@ export default state => html`
         <h3>Softball</h3>
       </div>
     </section>
-    <section id="outdoorCategorySection">
+    <section class="groupCategorySection">
       <h2>Outdoor Dates</h2>
       <div id="hikeImg">
         <h3>Hiking</h3>

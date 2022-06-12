@@ -6,3 +6,4 @@ export { default as Groups } from "./Groups";
 export { default as Outdoors } from "./Outdoors";
 export { default as Art } from "./Art";
 export { default as Food } from "./Food";
+export { default as All } from "./All";
