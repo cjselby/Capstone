@@ -348,12 +348,10 @@ footer {
   font-style: normal;
 }
 
-#secondImg {
-  background-image: url(assets/img/bowling.jpg);
+#secondImg img {
   background-color: white;
-  background-size: 60%;
   background-repeat: no-repeat;
-  font: inherit;
+  float: left;
   height: 40vh;
   width: 50vh;
   margin-left: 7%;

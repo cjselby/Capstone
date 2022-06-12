@@ -1,4 +1,5 @@
 import html from "html-literal";
+import bowlingPic from "../../assets/img/bowling.jpg";
 
 export default state => html`
   <section id="jumbotron">
@@ -15,6 +16,7 @@ export default state => html`
     <h2>Group Dates</h2>
     <div id="secondImg">
       <h3>Bowling</h3>
+      <img src="${bowlingPic}" alt="bowling" />
     </div>
     <div id="thirdImg">
       <h3>Softball</h3>
