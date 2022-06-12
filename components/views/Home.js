@@ -15,21 +15,23 @@ export default state => html`
     </div>
   </section>
   <section class="categorySection">
-    <h2>Group Dates</h2>
-    <div id="secondImg">
-      <h3>Bowling</h3>
-      <img src="${bowlingPic}" alt="bowling alley" />
-    </div>
-    <div id="thirdImg">
-      <h3>Softball</h3>
-      <img src="${softballPic}" alt="group of people playing softball" />
-    </div>
-  </section>
-  <section class="categorySection">
-    <h2>Outdoor Dates</h2>
-    <div id="hikeImg">
-      <h3>Hiking</h3>
-      <img src="${hikePic}" alt="couple hiking" />
-    </div>
+    <section id="groupSection">
+      <h2>Group Dates</h2>
+      <div id="secondImg">
+        <h3>Bowling</h3>
+        <img src="${bowlingPic}" alt="bowling alley" />
+      </div>
+      <div id="thirdImg">
+        <h3>Softball</h3>
+        <img src="${softballPic}" alt="group of people playing softball" />
+      </div>
+    </section>
+    <section id="outdoorSection">
+      <h2>Outdoor Dates</h2>
+      <div id="hikeImg">
+        <h3>Hiking</h3>
+        <img src="${hikePic}" alt="couple hiking" />
+      </div>
+    </section>
   </section>
 `;
