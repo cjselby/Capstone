@@ -386,8 +386,8 @@ footer {
 
 #allDates {
   display: grid;
-  grid-template-columns: 200px 200px 200px 200px;
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px 300px;;
 }
 
 #content1 {
@@ -395,6 +395,9 @@ footer {
   grid-column-end: 5;
   grid-row-start: 1;
   grid-row-end: 2;
+  text-align: center;
+  font-family: Montserrat,sans-serif;
+  font-weight: 500;
 }
 
 #img1 {
@@ -403,6 +406,12 @@ footer {
   grid-row-start: 2;
   grid-row-end: 3;
   background-image: url(assets/img/campfire.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  height: 40vh;
+  width: 50vh;
+  margin-left: 7%;
+  margin-right: 7%
 }
 
 .item4 {
