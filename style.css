@@ -349,10 +349,9 @@ footer {
 }
 
 #secondImg img {
-  float: left;
   height: 40vh;
   width: 50vh;
   margin-left: 7%;
   margin-right: 7%;
-
+}
 
