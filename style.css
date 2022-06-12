@@ -379,3 +379,18 @@ footer {
   margin-right: 7%;
 }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 25px 25px 25px 25px;
+  grid-template-rows: 25px 25px 25px 25px;
+}
+
+#groupCategorySection {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#outdoorCategorySection {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
