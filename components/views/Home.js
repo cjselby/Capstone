@@ -1,5 +1,7 @@
 import html from "html-literal";
 import bowlingPic from "../../assets/img/bowling.jpg";
+import softballPic from "../../assets/img/softball.jpg";
+import hikePic from "../../assets/img/hike.jpg";
 
 export default state => html`
   <section id="jumbotron">
@@ -16,16 +18,18 @@ export default state => html`
     <h2>Group Dates</h2>
     <div id="secondImg">
       <h3>Bowling</h3>
-      <img src="${bowlingPic}" alt="bowling" />
+      <img src="${bowlingPic}" alt="bowling alley" />
     </div>
     <div id="thirdImg">
       <h3>Softball</h3>
+      <img src="${softballPic}" alt="group of people playing softball" />
     </div>
   </section>
   <section class="categorySection">
     <h2>Outdoor Dates</h2>
     <div id="hikeImg">
       <h3>Hiking</h3>
+      <img src="${hikePic}" alt="couple hiking" />
     </div>
   </section>
 `;

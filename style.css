@@ -358,20 +358,17 @@ footer {
   margin-right: 7%;
 }
 
-#thirdImg {
-  background-image: url(assets/img/softball.jpg);
+#thirdImg img {
   background-color: white;
-  background-size: 60%;
   background-repeat: no-repeat;
-  font: inherit;
+  float: right;
   height: 40vh;
   width: 50vh;
   margin-left: 7%;
   margin-right: 7%;
 }
 
-#hikeImg {
-  background-image: url(assets/img/hike.jpg);
+#hikeImg img{
   background-color: white;
   background-size: 60%;
   background-repeat: no-repeat;
