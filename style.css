@@ -358,3 +358,23 @@ footer {
   margin-right: 7%;
 }
 
+#thirdImg {
+  background-image: url(assets/img/softball.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  height: 40vh;
+  width: 50vh;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+#hikeImg {
+  background-image: url(assets/img/hike.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  height: 40vh;
+  width: 50vh;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
