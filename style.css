@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  height: 100vh;
   color: white;
   font-family: Montserrat,sans-serif;
   margin-left: 7%;
@@ -161,11 +161,10 @@ form > input[type="submit"] {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 65vh;
     width: 100%;
     color: white;
     border-top: 15rem;
-    border-bottom: 15rem;
     border: solid white;
 }
 
