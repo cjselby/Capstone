@@ -340,10 +340,10 @@ footer {
   padding: 1.2em 25px;
 }
 
-#secondSection {
+.categorySection {
   color: black;
   font-family: ProximaNova,Helvetica,Arial,sans-serif;
-  margin: auto;
+  margin: auto 50%;
 }
 
 #secondImg {
@@ -357,3 +357,16 @@ footer {
   margin-left: 7%;
   margin-right: 7%;
 }
+
+#hikeImg {
+  background-image: url(assets/img/hike.jpg);
+  background-color: white;
+  background-size: 60%;
+  background-repeat: no-repeat;
+  height: 40vh;
+  width: 50vh;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+
