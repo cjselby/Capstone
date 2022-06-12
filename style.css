@@ -349,6 +349,9 @@ footer {
 }
 
 #secondImg img {
+  background-image: url(assets/img/bowling.jpg);
+  background-repeat: no-repeat;
+  background-size: 60%;
   height: 40vh;
   width: 50vh;
   margin-left: 7%;
