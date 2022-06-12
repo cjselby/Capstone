@@ -14,8 +14,7 @@ export default state => html`
       <a href="index.html">Explore all date categories</a>
     </div>
   </section>
-  <div class="wrapper">
-    <section id="groupCategorySection">
+    <section class="groupCategorySection">
       <h2>Group Dates</h2>
       <div id="secondImg">
         <h3>Bowling</h3>
