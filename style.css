@@ -340,7 +340,7 @@ footer {
   padding: 1.2em 25px;
 }
 
-.categorySection {
+.categorySection > h2 {
   color: black;
   font-family: ProximaNova,Helvetica,Arial,sans-serif;
   margin: auto 50%;
