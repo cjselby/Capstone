@@ -11,23 +11,30 @@ export default state => html`
         Whether you're looking for adventurous dates, group dates or at-home
         dates, we've got you covered.
       </p>
-      <a href="index.html">Explore all date categories</a>
+      <a href="All">Explore all date categories</a>
     </div>
   </section>
-    <section class="groupCategorySection">
-      <h2>Group Dates</h2>
-      <div id="secondImg">
-        <h3>Bowling</h3>
-      </div>
-      <div id="thirdImg">
-        <h3>Softball</h3>
-      </div>
-    </section>
-    <section class="groupCategorySection">
-      <h2>Outdoor Dates</h2>
-      <div id="hikeImg">
-        <h3>Hiking</h3>
-      </div>
-    </section>
-  </div>
+  <section id="allDates">
+    <div id="content1">
+      <h2>Group Date Ideas</h2>
+    </div>
+    <div id="img1"></div>
+    <div id="img2"></div>
+    <div id="img3"></div>
+    <div id="img4"></div>
+    <div id="content2">
+      <h2>Music & Art Date Ideas</h2>
+    </div>
+    <div id="img5"></div>
+    <div id="img6"></div>
+    <div id="img7"></div>
+    <div id="img8"></div>
+    <div id="content3">
+      <h2>Outdoor Date Ideas</h2>
+    </div>
+    <div id="img9"></div>
+    <div id="img10"></div>
+    <div id="img11"></div>
+    <div id="img12"></div>
+  </section>
 `;
