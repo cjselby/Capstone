@@ -17,14 +17,48 @@ function render(state = store.Home) {
 `;
 
   router.updatePageLinks();
-  afterRender();
+  afterRender(state);
 }
 
-function afterRender() {
+function afterRender(state) {
   document.querySelector(".fa-bars").addEventListener("click", () => {
     document.querySelector("nav > ul").classList.toggle("hidden--mobile");
   });
 }
+
+console.log("capstone-:state.view", state.view);
+
+if (state.view === "Order") {
+  document.querySelector("form").addEventListener("submit", event => {
+    event.preventDefault();
+    const inputList = event.target.elements;
+    const interests = [];
+    for (let input of inputList.interests) {
+      if (input.checked) {
+        interests.push(input.value);
+      }
+    }
+    const requestData = {
+      likely: inputList.likely.value,
+      category: inputList.category.value,
+      experience: inputList.experience.value,
+      interests: interests,
+      customer: ""
+    };
+    axios
+      .post(`${process.env.CAPSTONE_API_URL}`, requestData)
+      .then(response => {
+        console.log(response.data);
+        store.Review.reviews.push(response.data);
+        router.navigate("/Review");
+      })
+      .catch(error => {
+        console.log("Error", error);
+      });
+  });
+}
+}
+
 
 router.hooks({
   before: (done, params) => {
@@ -57,13 +91,13 @@ router.hooks({
         });
     } else if (view === "Review") {
       axios
-        .get(`${process.env.PIZZA_PLACE_API_URL}`)
+        .get(`${process.env.CAPSTONE_API_URL}`)
         .then(response => {
           store.Review.reviews = response.data;
           done();
         })
         .catch(error => {
-          console.log("It puked", error);
+          console.log("Error", error);
           done();
         });
     } else {
