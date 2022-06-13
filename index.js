@@ -55,11 +55,11 @@ router.hooks({
           console.log(err);
           done();
         });
-    } else if (view === "Pizza") {
+    } else if (view === "Review") {
       axios
         .get(`${process.env.PIZZA_PLACE_API_URL}`)
         .then(response => {
-          store.Pizza.pizzas = response.data;
+          store.Review.reviews = response.data;
           done();
         })
         .catch(error => {

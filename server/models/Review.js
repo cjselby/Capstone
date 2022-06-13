@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const deckSchema = new mongoose.Schema({
+const reviewSchema = new mongoose.Schema({
   season: {
     type: String,
     required: true,
@@ -22,6 +22,6 @@ const deckSchema = new mongoose.Schema({
   }
 });
 
-const Deck = mongoose.model("Deck", dateSchema);
+const Review = mongoose.model("Review", reviewSchema);
 
-module.exports = Deck;
+module.exports = Review;

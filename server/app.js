@@ -2,7 +2,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const deck = require("./routers/deck");
+const deck = require("./routers/reviews");
 // Initialize the Express application
 const app = express();
 
