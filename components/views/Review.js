@@ -1,7 +1,6 @@
 import html from "html-literal";
 
 export default st => `
-<section id="rev">What couples are saying</section>
 <table id="reviews">
 <tr><th>Likely</th><th>Category</th><th>Experience</th><th>Interests</th><th>Customer</th></tr>
 ${st.reviews

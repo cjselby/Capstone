@@ -2,7 +2,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const review = require("./routers/reviews");
+const reviews = require("./routers/reviews");
 // Initialize the Express application
 const app = express();
 
@@ -23,6 +23,22 @@ const logging = (request, response, next) => {
   next();
 };
 
+// CORS Middleware
+const cors = (req, res, next) => {
+  res.setHeader(
+    "Access-Control-Allow-Headers",
+    "X-Requested-With,content-type, Accept,Authorization,Origin"
+  );
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader(
+    "Access-Control-Allow-Methods",
+    "GET, POST, OPTIONS, PUT, PATCH, DELETE"
+  );
+  res.setHeader("Access-Control-Allow-Credentials", true);
+  next();
+};
+
+app.use(cors);
 app.use(express.json());
 app.use(logging);
 
@@ -38,7 +54,7 @@ app.post("/echo", (request, response) => {
   response.json({ "request.body": request.body });
 });
 
-app.use("/review", review);
+app.use("/reviews", reviews);
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040

@@ -1,25 +1,37 @@
 const mongoose = require("mongoose");
 
 const reviewSchema = new mongoose.Schema({
-  season: {
+  customer: {
     type: String,
     required: true,
-    enum: ["Summer", "Spring", "Fall", "Winter"]
+    validate: /^[A-Za-z0-9 ]*$/
   },
-  home: {
+  likely: {
     type: String,
     required: true,
-    enum: ["yes", "no"]
+    enum: [
+      "10 - Very likely",
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1 - Not likely"
+    ]
   },
-  group: {
+  category: {
     type: String,
-    enum: ["yes", "no"]
+    validate: /^[A-Za-z0-9 ]*$/
   },
-  free: {
+  experience: {
     type: String,
     required: true,
-    enum: ["yes", "no"]
-  }
+    validate: /^[A-Za-z0-9 ]*$/
+  },
+  interests: [String]
 });
 
 const Review = mongoose.model("Review", reviewSchema);
