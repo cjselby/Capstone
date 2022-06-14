@@ -594,3 +594,7 @@ button {
 .generateTitle {
   font-size: 40px;
 }
+
+#groupContent a {
+  font-size: 30px;
+}
