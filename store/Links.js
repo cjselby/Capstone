@@ -5,5 +5,5 @@ export default [
   { title: "Outdoors", text: "Outdoors" },
   { title: "Art", text: "Art" },
   { title: "Food", text: "Food" },
-  { title: "Reviews", text: "Reviews" }
+  { title: "Review", text: "Reviews" }
 ];
