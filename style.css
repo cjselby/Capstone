@@ -546,3 +546,33 @@ footer ul {
     font-family: Montserrat,sans-serif;
     font-weight: 500;
   }
+
+  #groupContent1 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 90px 250px 90px 250px 90px 200px;
+    margin-left:7%;
+    margin-right: 3%;
+  }
+
+  #groupDate1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    font-weight: 500;
+  }
+
+  #groupContentImg1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-image: url(assets/img/sailing.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 230px;
+    width: 40vh;
+  }
