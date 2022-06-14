@@ -267,13 +267,6 @@ footer ul {
     border: solid white;
 }
 
-#groupContent {
-  color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  margin: 2px;
-  letter-spacing: 1px;
-}
-
 #outdoors {
   background-image: url(assets/img/camping.jpg);
   opacity: .8;
@@ -300,25 +293,20 @@ footer ul {
 
 #art {
   background-image: url(assets/img/pottery.jpg);
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 75vh;
-    width: 100%;
-    color: white;
-    border-top: 15rem;
-    border-bottom: 15rem;
-    border: solid white;
-}
-
-#artContent {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
   color: white;
-  font-family: ProximaNova,Helvetica,Arial,sans-serif;
+  border-top: 15rem;
+  border-bottom: 15rem;
+  border: solid white;
 }
 
 #food {
@@ -595,6 +583,15 @@ button {
   font-size: 40px;
 }
 
-#groupContent a {
+#dateIdea {
+  font-family: Montserrat,sans-serif;
+  color: white;
+  margin: 2px;
+  letter-spacing: 1px;
+  font-size: 40px;
+  text-align: center;
+  }
+
+#dateIdea a {
   font-size: 30px;
 }
