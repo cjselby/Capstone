@@ -1,5 +1,5 @@
 export default {
   header: "",
-  view: "Reviews",
+  view: "Review",
   reviews: []
 };
