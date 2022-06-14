@@ -586,10 +586,12 @@ button {
 #dateIdea {
   font-family: Montserrat,sans-serif;
   color: white;
-  margin: 2px;
   letter-spacing: 1px;
   font-size: 40px;
   text-align: center;
+  background-color: rgb(24, 22, 22);
+  padding: 1% 50% 1% 50%;
+  opacity: .8
   }
 
 #dateIdea a {
