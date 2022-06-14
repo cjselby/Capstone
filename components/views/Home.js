@@ -11,7 +11,7 @@ export default state => html`
         Whether you're looking for adventurous dates, group dates or at-home
         dates, we've got you covered.
       </p>
-      <a href="All">Explore all date categories</a>
+      <a href="Food">Explore all date categories</a>
     </div>
   </section>
   <section id="allDates">

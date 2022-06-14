@@ -276,6 +276,7 @@ footer ul {
 
 #outdoors {
   background-image: url(assets/img/camping.jpg);
+  opacity: .8;
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -589,3 +590,7 @@ button {
     font-family: Montserrat,sans-serif;
     padding: 2px;
   }
+
+.generateTitle {
+  font-size: 40px;
+}
