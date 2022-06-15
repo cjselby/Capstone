@@ -674,3 +674,172 @@ button {
     border-bottom: 15rem;
     border: solid white;
   }
+
+  #museum {
+    background-image: url(assets/img/museum.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #volunteer {
+    background-image: url(assets/img/volunteer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #sail {
+    background-image: url(assets/img/sailing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #paddle {
+    background-image: url(assets/img/paddle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+  #concert {
+    background-image: url(assets/img/concert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #tennis {
+    background-image: url(assets/img/tennis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #kayak {
+    background-image: url(assets/img/kayaking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #sail {
+    background-image: url(assets/img/sailing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #park {
+    background-image: url(assets/img/park.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #fair {
+    background-image: url(assets/img/fair.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
