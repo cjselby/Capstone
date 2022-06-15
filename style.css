@@ -587,7 +587,7 @@ button {
   font-family: Montserrat,sans-serif;
   color: white;
   letter-spacing: 1px;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   background-color: rgb(24, 22, 22);
   padding: 1% 50% 1% 50%;
@@ -595,5 +595,5 @@ button {
   }
 
 #dateIdea a {
-  font-size: 30px;
+  font-size: 25px;
 }
