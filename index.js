@@ -27,7 +27,7 @@ function afterRender(state) {
 
   console.log("capstone-:state.view", state.view);
 
-  if (state.view === "Order") {
+  if (state.view === "Form") {
     document.querySelector("form").addEventListener("submit", event => {
       event.preventDefault();
       const inputList = event.target.elements;
@@ -90,7 +90,7 @@ router.hooks({
       axios
         .get(`${process.env.PIZZA_PLACE_API_URL}`)
         .then(response => {
-          store.Pizza.pizzas = response.data;
+          store.Review.reviews = response.data;
           done();
         })
         .catch(error => {

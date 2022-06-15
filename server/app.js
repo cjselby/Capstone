@@ -43,16 +43,14 @@ app.use(express.json());
 app.use(logging);
 
 // Handle the request with HTTP GET method from http://localhost:4040/status
-app.get("/status", (request, response) => {
-  // Create the headers for response by default 200
-  // Create the response body
-  // End and return the response
-  response.status(418).json({ message: "Service healthy" });
-});
-
-app.post("/echo", (request, response) => {
-  response.json({ "request.body": request.body });
-});
+app
+  .route("/status")
+  .get((request, response) => {
+    response.status(418).json({ message: "Service healthy" });
+  })
+  .post((request, response) => {
+    response.json({ requestBody: request.body });
+  });
 
 app.use("/reviews", reviews);
 
