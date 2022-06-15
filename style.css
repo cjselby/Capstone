@@ -573,3 +573,104 @@ button {
   color: black;
 }
 
+#game {
+  background-image: url(assets/img/game.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+  color: white;
+  border-top: 15rem;
+  border-bottom: 15rem;
+  border: solid white;
+}
+
+#golf {
+    background-image: url(assets/img/golf.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #sport {
+    background-image: url(assets/img/sportevent.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #fish {
+    background-image: url(assets/img/fishing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #sunset {
+    background-image: url(assets/img/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
+
+  #cook {
+    background-image: url(assets/img/cooking.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 100%;
+    color: white;
+    border-top: 15rem;
+    border-bottom: 15rem;
+    border: solid white;
+  }
