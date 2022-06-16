@@ -86,7 +86,7 @@ router.hooks({
           console.log(err);
           done();
         });
-    } else if (view === "Pizza") {
+    } else if (view === "Review") {
       axios
         .get(`${process.env.CAPSTONE_API_URL}`)
         .then(response => {
