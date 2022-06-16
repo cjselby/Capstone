@@ -88,7 +88,7 @@ router.hooks({
         });
     } else if (view === "Pizza") {
       axios
-        .get(`${process.env.PIZZA_PLACE_API_URL}`)
+        .get(`${process.env.CAPSTONE_API_URL}`)
         .then(response => {
           store.Review.reviews = response.data;
           done();

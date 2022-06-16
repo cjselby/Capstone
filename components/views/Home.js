@@ -1,7 +1,4 @@
 import html from "html-literal";
-import bowlingPic from "../../assets/img/bowling.jpg";
-import softballPic from "../../assets/img/softball.jpg";
-import hikePic from "../../assets/img/hike.jpg";
 
 export default state => html`
   <section id="jumbotron">
