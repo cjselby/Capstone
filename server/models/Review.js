@@ -8,7 +8,18 @@ const reviewSchema = new mongoose.Schema({
   likely: {
     type: String,
     required: true,
-    enum: ["ten", "9", "8", "7", "6", "5", "4", "3", "2", "1 - Not likely"]
+    enum: [
+      "ten",
+      "nine",
+      "eight",
+      "seven",
+      "six",
+      "five",
+      "four",
+      "three",
+      "two",
+      "one"
+    ]
   },
   category: {
     type: String,
