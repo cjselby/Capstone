@@ -3,6 +3,8 @@ import * as store from "./store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
 import axios from "axios";
+import dotenv from "dotenv";
+dotenv.config();
 
 const router = new Navigo("/");
 
@@ -25,7 +27,7 @@ function afterRender(state) {
       document.querySelector("nav > ul").classList.toggle("hidden--mobile")
     );
 
-  console.log("capstone-:state.view", state.view);
+  console.log("state.view", state.view);
 
   if (state.view === "Form") {
     document.querySelector("form").addEventListener("submit", event => {
@@ -44,11 +46,13 @@ function afterRender(state) {
         interests: interests,
         customer: ""
       };
+      console.log(requestData);
       axios
-        .post(`${process.env.CAPSTONE_API_URL}`, requestData)
+        .post(`${process.env.CAPSTONE_API_URL}/reviews`, requestData)
         .then(response => {
           console.log(response.data);
-          store.Review.reviews.push(response.data);
+          console.log(response);
+          store.Review.reviews = response.data;
           router.navigate("/Review");
         })
         .catch(error => {
@@ -88,7 +92,7 @@ router.hooks({
         });
     } else if (view === "Review") {
       axios
-        .get(`${process.env.CAPSTONE_API_URL}`)
+        .get(`${process.env.CAPSTONE_API_URL}/reviews`)
         .then(response => {
           store.Review.reviews = response.data;
           done();

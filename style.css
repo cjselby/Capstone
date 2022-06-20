@@ -149,6 +149,7 @@ form > input[type="submit"] {
   text-align: center;
   margin-left: 7%;
   margin-right: 7%;
+  position: relative;
   }
 
 .jumboImg {
@@ -172,9 +173,6 @@ header {
   margin-left: 2%;
 }
 
-#bio {
-  position: relative;
-}
 #bioContent {
   position: absolute;
   top: 20%;
@@ -527,7 +525,7 @@ footer ul {
   width: 40vh;
 }
 
-  #content3 {
+  #content3 > h2 {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 5;
@@ -537,6 +535,14 @@ footer ul {
   font-weight: 500;
   }
 
+#img9 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    height: 200px;
+    width: 400px;
+}
 button {
   color: #000;
   background-color: #fff;

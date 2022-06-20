@@ -1,14 +1,14 @@
-// 'Import' the Express module instead of http
+// import Express module instead of http
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
 const reviews = require("./routers/reviews");
-// Initialize the Express application
+// Initialize Express
 const app = express();
 
 dotenv.config();
 
-const PORT = process.env.PORT || 4040; // we use || to provide a default value
+const PORT = process.env.API_PORT || 4040; //default value
 
 mongoose.connect(process.env.MONGODB);
 const db = mongoose.connection;
@@ -52,8 +52,8 @@ app
     response.json({ requestBody: request.body });
   });
 
+//telling express to use the reviews route and listen for /reviews and execute whatever is in the reviews route
 app.use("/reviews", reviews);
 
-// Tell the Express app to start listening
-// Let the humans know I am running and listening on 4040
+// tell Express to start listening and let us know it is running and listening on 4040
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`));

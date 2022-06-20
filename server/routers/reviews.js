@@ -1,6 +1,8 @@
+//importing Router in express to create my own route in this file to use later
 const { Router } = require("express");
+//pull in Review model to access the database
 const Review = require("../models/Review");
-
+//declare a router to define routes on the router
 const router = Router();
 
 // Create record in MongoDB Atlas using Mongoose.js ORM
@@ -41,7 +43,6 @@ router.put("/:id", (request, response) => {
     request.params.id,
     {
       $set: {
-        // Take note that the customer is not included, so it can't
         likely: body.likely,
         category: body.category,
         experience: body.experience,
