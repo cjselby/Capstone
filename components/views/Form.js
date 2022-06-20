@@ -11,7 +11,6 @@ export default () => html`
           name="customer"
           id="customer"
           placeholder="Enter Name"
-          required
         />
       <div>
         <label for="likely"
