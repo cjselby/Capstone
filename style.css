@@ -422,11 +422,18 @@ footer ul {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: url(assets/img/sailing.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 230px;
-  width: 40vh;
+  height: 200px;
+  width: 400px;
+  position: relative;
+  text-align: center;
+}
+
+.imgTxt {
+  position: absolute;
+  top: 380px;
+  left: 300px;
+  color: white;
+  font-size: 30px;
 }
 
 #content2 {
@@ -444,11 +451,8 @@ footer ul {
   grid-column-end: 3;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: url(assets/img/groupbonfire.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 230px;
-  width: 40vh;
+  height: 200px;
+  width: 400px;
 }
 
 #img3 {
@@ -456,11 +460,8 @@ footer ul {
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 3;
-  background-image: url(assets/img/poker.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 230px;
-  width: 40vh;
+  height: 200px;
+  width: 400px;
 }
 
 #img4 {
@@ -468,12 +469,8 @@ footer ul {
     grid-column-end: 5;
     grid-row-start: 2;
     grid-row-end: 3;
-    background-image: url(assets/img/fair.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 40%;
-    height: 230px;
-    width: 40vh;
+    height: 200px;
+    width: 400px;
   }
 
 #img5 {
@@ -481,11 +478,8 @@ footer ul {
   grid-column-end: 2;
   grid-row-start: 4;
   grid-row-end: 5;
-  background-image: url(assets/img/concert.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 230px;
-  width: 40vh;
+  height: 200px;
+  width: 400px;
 }
 
 #img6 {
@@ -493,11 +487,8 @@ footer ul {
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
-  background-image: url(assets/img/paint.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 230px;
-  width: 40vh;
+  height: 200px;
+  width: 400px;
 }
 
 #img7 {
@@ -505,12 +496,8 @@ footer ul {
   grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 5;
-  background-image: url(assets/img/museum.jpg);
-  background-repeat: no-repeat;
-  background-size: 50%;
-  background-position: 0%;
-  height: 230px;
-  width: 80vh;
+  height: 200px;
+  width: 400px;
 }
 
 #img8 {
@@ -518,14 +505,11 @@ footer ul {
   grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 5;
-  background-image: url(assets/img/pottery.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 230px;
-  width: 40vh;
+  height: 200px;
+  width: 400px;
 }
 
-  #content3 > h2 {
+#content3 {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 5;
@@ -543,6 +527,34 @@ footer ul {
     height: 200px;
     width: 400px;
 }
+
+#img10 {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  height: 200px;
+  width: 400px;
+}
+
+#img11 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  height: 200px;
+  width: 400px;
+}
+
+#img12 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  height: 200px;
+  width: 400px;
+}
+
 button {
   color: #000;
   background-color: #fff;
