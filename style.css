@@ -427,16 +427,6 @@ footer ul {
   grid-row-end: 3;
   height: 200px;
   width: 400px;
-  position: relative;
-  text-align: center;
-}
-
-.imgTxt {
-  position: absolute;
-  top: 380px;
-  left: 300px;
-  color: white;
-  font-size: 30px;
 }
 
 #content2 {
