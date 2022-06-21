@@ -11,9 +11,12 @@
   background-color: white;
 }
 
-#jumbotron > h2 {
-  color: white;
-  text-align: center;
+p {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 #jumbotron > a {
@@ -66,15 +69,15 @@ form > input[type="submit"] {
   }
 }
 
-  nav {
-    background: black;
-    color:white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-decoration: none;
-    width: 100%;
-  }
+nav {
+  background: black;
+  color:white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  width: 100%;
+}
 
   nav > i {
     padding: 1rem;
