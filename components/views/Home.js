@@ -3,12 +3,12 @@ import html from "html-literal";
 export default state => html`
   <section id="jumbotron">
     <div class="jumboImg">
-      <h2>Not your average date night</h2>
+      <h2>Discover different date activities</h2>
       <p>
-        Whether you're looking for adventurous dates, group dates or at-home
-        dates, we've got you covered.
+        Spend your time doing fun things instead of searching for fun things to
+        do.
       </p>
-      <a href="Food">Explore all date categories</a>
+      <a href="Food">Explore date activities</a>
     </div>
   </section>
 `;

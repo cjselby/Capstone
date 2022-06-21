@@ -2,12 +2,13 @@ import html from "html-literal";
 export default () => html`
   <section id="bio">
     <div id="bioContent">
-      <h2>Mission</h2>
+      <h2>About</h2>
       <p>
-        I created The Date Deck to inspire others to deepen their connection
-        with loved ones in new ways. I know life gets busy and maintaining
-        relationships is difficult. Instead of spending time planning a date,
-        The Date Deck will do it for you.
+        The Date Deck was created to inspire others to deepen their connection
+        with loved ones in new ways. Let The Date Deck be your guide to discover
+        different date activities. Instead of spending time planning a date, The
+        Date Deck will do it for you so you can just enjoy spending time with
+        your people.
       </p>
     </div>
   </section>
