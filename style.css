@@ -428,6 +428,7 @@ footer ul {
   height: 200px;
   width: 400px;
   background-image: url(assets/img/sailing.jpg);
+  background-size: 200px 400px;
 }
 
 #content2 {
