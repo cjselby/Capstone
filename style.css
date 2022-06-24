@@ -425,13 +425,12 @@ footer ul {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  height: 200px;
-  width: 400px;
+  height: 500px;
+  width: 250px;
   background-image: url(assets/img/sailing.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
-  margin-left: 1%;
-  margin-right: 3%;
+  border: white;
 }
 
 #content2 {
