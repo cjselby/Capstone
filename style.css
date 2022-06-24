@@ -425,12 +425,12 @@ footer ul {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  height: 500px;
-  width: 250px;
+  height: 200px;
+  width: 300px;
   background-image: url(assets/img/sailing.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
-  border: white;
+  background-size: cover;
+  border-style: none;
 }
 
 #content2 {
@@ -449,7 +449,7 @@ footer ul {
   grid-row-start: 2;
   grid-row-end: 3;
   height: 200px;
-  width: 400px;
+  width: 300px;
   background-image: url(assets/img/groupbonfire.jpg);
   background-size: 100%;
   background-repeat: no-repeat;
@@ -461,7 +461,7 @@ footer ul {
   grid-row-start: 2;
   grid-row-end: 3;
   height: 200px;
-  width: 400px;
+  width: 300px;
   background-image: url(assets/img/poker.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -473,7 +473,7 @@ footer ul {
     grid-row-start: 2;
     grid-row-end: 3;
     height: 200px;
-    width: 400px;
+    width: 300px;
     background-image: url(assets/img/fair.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -485,7 +485,7 @@ footer ul {
   grid-row-start: 4;
   grid-row-end: 5;
   height: 200px;
-  width: 400px;
+  width: 300px;
   background-image: url(assets/img/concert.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -497,7 +497,7 @@ footer ul {
   grid-row-start: 4;
   grid-row-end: 5;
   height: 200px;
-  width: 400px;
+  width: 300px;
   background-image: url(assets/img/art.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -509,7 +509,7 @@ footer ul {
   grid-row-start: 4;
   grid-row-end: 5;
   height: 200px;
-  width: 400px;
+  width: 300px;
   background-image: url(assets/img/museum.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
