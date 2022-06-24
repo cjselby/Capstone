@@ -383,7 +383,7 @@ footer ul {
   grid-template-columns: 25% 25% 25% 25%;
   grid-template-rows: 90px 250px 90px 250px 90px 200px;
   margin-left:7%;
-  margin-right: 3%;
+  margin-right: 0%;
 }
 
 #content1 > a {
@@ -428,7 +428,7 @@ footer ul {
   height: 200px;
   width: 400px;
   background-image: url(assets/img/sailing.jpg);
-  background-size: 200px 400px;
+  background-repeat: no-repeat;
 }
 
 #content2 {
@@ -448,6 +448,8 @@ footer ul {
   grid-row-end: 3;
   height: 200px;
   width: 400px;
+  background-image: url(assets/img/sailing.jpg);
+  background-repeat: no-repeat;
 }
 
 #img3 {
@@ -457,6 +459,8 @@ footer ul {
   grid-row-end: 3;
   height: 200px;
   width: 400px;
+  background-image: url(assets/img/sailing.jpg);
+  background-repeat: no-repeat;
 }
 
 #img4 {
@@ -574,13 +578,6 @@ button {
   opacity: .8;
   padding-bottom: 2%;
   }
-
-#dateIdea a {
-  font-size: 25px;
-  border: solid;
-  border-color: white;
-  padding: 4px;
-}
 
 #dateIdea > .black {
   color: black;
@@ -856,3 +853,11 @@ button {
     border-bottom: 15rem;
     border: solid white;
   }
+
+#dateIdea a {
+  font-family: Montserrat,sans-serif;
+  font-size: 25px;
+  border: solid;
+  border-color: white;
+  padding: 4px;
+}
