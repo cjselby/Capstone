@@ -425,6 +425,8 @@ footer ul {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
+  height: 200px;
+  width: 400px;
   background-image: url(assets/img/sailing.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -471,6 +473,9 @@ footer ul {
     grid-row-end: 3;
     height: 200px;
     width: 400px;
+    background-image: url(assets/img/fair.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
 #img5 {
@@ -480,6 +485,9 @@ footer ul {
   grid-row-end: 5;
   height: 200px;
   width: 400px;
+  background-image: url(assets/img/concert.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #img6 {
@@ -489,6 +497,9 @@ footer ul {
   grid-row-end: 5;
   height: 200px;
   width: 400px;
+  background-image: url(assets/img/art.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #img7 {
@@ -498,6 +509,9 @@ footer ul {
   grid-row-end: 5;
   height: 200px;
   width: 400px;
+  background-image: url(assets/img/museum.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #img8 {
@@ -507,6 +521,9 @@ footer ul {
   grid-row-end: 5;
   height: 200px;
   width: 400px;
+  background-image: url(assets/img/pottery.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #content3 {
@@ -526,6 +543,9 @@ footer ul {
     grid-row-end: 7;
     height: 200px;
     width: 400px;
+    background-image: url(assets/img/wine.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #img10 {
@@ -535,6 +555,9 @@ footer ul {
   grid-row-end: 7;
   height: 200px;
   width: 400px;
+  background-image: url(assets/img/cooking.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #img11 {
@@ -544,6 +567,9 @@ footer ul {
   grid-row-end: 7;
   height: 200px;
   width: 400px;
+  background-image: url(assets/img/milkshake.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 #img12 {
@@ -553,6 +579,9 @@ footer ul {
   grid-row-end: 7;
   height: 200px;
   width: 400px;
+  background-image: url(assets/img/picnic.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 button {

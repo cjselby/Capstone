@@ -17,23 +17,23 @@ export default () => html`
     <div id="content1">
       <h2>Group Dates</h2>
     </div>
-    <img id="img1" alt="sailing" />
-    <img id="img2" src="${bonfirePic}" alt="bonfire" />
-    <img id="img3" src="${pokerPic}" alt="poker" />
-    <img id="img4" src="${fairPic}" alt="fair" />
+    <img id="img1" />
+    <img id="img2" />
+    <img id="img3" />
+    <img id="img4" />
     <div id="content2">
       <h2>Music & Art Dates</h2>
     </div>
-    <img id="img5" src="${concertPic}" alt="concert" />
-    <img id="img6" src="${paintPic}" alt="painting" />
-    <img id="img7" src="${museumPic}" alt="museum" />
-    <img id="img8" src="${potteryPic}" alt="pottery" />
+    <img id="img5" />
+    <img id="img6" />
+    <img id="img7" />
+    <img id="img8" />
     <div id="content3">
       <h2>Dinner and Drink Dates</h2>
     </div>
-    <img id="img9" src="${winePic}" alt="wine" />
-    <img id="img10" src="${cookPic}" alt="cooking" />
-    <img id="img11" src="${milkshakePic}" alt="milkshake cheers" />
-    <img id="img12" src="${picnicPic}" alt="picnic" />
+    <img id="img9" />
+    <img id="img10" />
+    <img id="img11" />
+    <img id="img12" />
   </section>
 `;
