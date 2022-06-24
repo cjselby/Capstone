@@ -427,7 +427,7 @@ footer ul {
   grid-row-end: 3;
   background-image: url(assets/img/sailing.jpg);
   background-repeat: no-repeat;
-  background-size: 5%;
+  background-size: 100%;
 }
 
 #content2 {
@@ -447,7 +447,8 @@ footer ul {
   grid-row-end: 3;
   height: 200px;
   width: 400px;
-  background-image: url(assets/img/sailing.jpg);
+  background-image: url(assets/img/groupbonfire.jpg);
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
@@ -458,9 +459,9 @@ footer ul {
   grid-row-end: 3;
   height: 200px;
   width: 400px;
-  background-image: url(assets/img/sailing.jpg);
+  background-image: url(assets/img/poker.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 #img4 {
