@@ -425,8 +425,6 @@ footer ul {
   grid-column-end: 2;
   grid-row-start: 2;
   grid-row-end: 3;
-  height: 200px;
-  width: 400px;
   background-image: url(assets/img/sailing.jpg);
   background-repeat: no-repeat;
 }
@@ -461,6 +459,7 @@ footer ul {
   width: 400px;
   background-image: url(assets/img/sailing.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #img4 {
