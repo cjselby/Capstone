@@ -430,6 +430,8 @@ footer ul {
   background-image: url(assets/img/sailing.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  margin-left: 1%;
+  margin-right: 3%;
 }
 
 #content2 {
