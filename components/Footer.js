@@ -12,7 +12,7 @@ export default () => html`
     </div>
     <div class="about">
       <ul>
-        <li><a href="./Bio">About Us</a></li>
+        <li><a href="./Bio">About</a></li>
       </ul>
     </div>
   </footer>
