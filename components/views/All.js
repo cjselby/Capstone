@@ -17,7 +17,7 @@ export default () => html`
     <div id="content1">
       <h2>Group Dates</h2>
     </div>
-    <img id="img1" src="${sailPic}" alt="sailing" />
+    <img id="img1" alt="sailing" />
     <img id="img2" src="${bonfirePic}" alt="bonfire" />
     <img id="img3" src="${pokerPic}" alt="poker" />
     <img id="img4" src="${fairPic}" alt="fair" />
