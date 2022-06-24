@@ -521,7 +521,7 @@ footer ul {
   grid-row-start: 4;
   grid-row-end: 5;
   height: 200px;
-  width: 400px;
+  width: 300px;
   background-image: url(assets/img/pottery.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -543,7 +543,7 @@ footer ul {
     grid-row-start: 6;
     grid-row-end: 7;
     height: 200px;
-    width: 400px;
+    width: 300px;
     background-image: url(assets/img/wine.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -555,7 +555,7 @@ footer ul {
   grid-row-start: 6;
   grid-row-end: 7;
   height: 200px;
-  width: 400px;
+  width: 300px;
   background-image: url(assets/img/cooking.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -567,7 +567,7 @@ footer ul {
   grid-row-start: 6;
   grid-row-end: 7;
   height: 200px;
-  width: 400px;
+  width: 300px;
   background-image: url(assets/img/milkshake.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -579,7 +579,7 @@ footer ul {
   grid-row-start: 6;
   grid-row-end: 7;
   height: 200px;
-  width: 400px;
+  width: 300px;
   background-image: url(assets/img/picnic.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
