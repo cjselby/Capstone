@@ -501,6 +501,7 @@ footer ul {
   background-image: url(assets/img/art.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-position-y: center;
 }
 
 #img7 {
