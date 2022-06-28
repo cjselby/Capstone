@@ -69,6 +69,21 @@ form > input[type="submit"] {
     justify-content: space-evenly;
     padding: 0 0;
   }
+  .jumboImg {
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    height: 75vh;
+    width: 100%;
+  }
 }
 
 nav {
