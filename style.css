@@ -84,6 +84,12 @@ form > input[type="submit"] {
     height: 75vh;
     width: 100%;
   }
+  #bioContent {
+    font-size: 16px;
+  }
+  p {
+    font-size: 18px
+  }
 }
 
 nav {

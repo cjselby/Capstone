@@ -7,8 +7,7 @@ export default () => html`
         The Date Deck was created to inspire others to deepen their connection
         with loved ones in new ways. Let The Date Deck be your guide to discover
         different date activities. Instead of spending time planning a date, The
-        Date Deck will do it for you so you can just enjoy spending time with
-        your people.
+        Date Deck will do it for you.
       </p>
     </div>
   </section>
